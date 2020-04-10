@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jc.cloud.shop.mapper.BrandInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jc.cloud.shop.entity.BrandInfo">
+        <id column="Id" property="Id" />
+        <result column="name" property="name" />
+        <result column="telephone" property="telephone" />
+        <result column="logo" property="logo" />
+        <result column="description" property="description" />
+        <result column="status" property="status" />
+        <result column="order" property="order" />
+        <result column="version" property="version" />
+        <result column="delFlag" property="delFlag" />
+        <result column="createTime" property="createTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="createBy" property="createBy" />
+        <result column="updateBy" property="updateBy" />
+    </resultMap>
+
+</mapper>

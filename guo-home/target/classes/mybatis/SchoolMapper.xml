@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jc.cloud.home.mapper.SchoolMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jc.cloud.home.entity.School">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="address" property="address" />
+        <result column="mobile" property="mobile" />
+        <result column="describe" property="describe" />
+        <result column="schoolLogo" property="schoolLogo" />
+        <result column="status" property="status" />
+        <result column="uid" property="uid" />
+        <result column="longitude" property="longitude" />
+        <result column="latitude" property="latitude" />
+        <result column="version" property="version" />
+        <result column="delFlag" property="delFlag" />
+        <result column="registerTime" property="registerTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="createBy" property="createBy" />
+        <result column="updateBy" property="updateBy" />
+    </resultMap>
+
+</mapper>

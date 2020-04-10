@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jc.cloud.home.mapper.CourseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jc.cloud.home.entity.Course">
+        <id column="id" property="id" />
+        <result column="week" property="week" />
+        <result column="morning" property="morning" />
+        <result column="afternoon" property="afternoon" />
+        <result column="teacherId" property="teacherId" />
+        <result column="schoolId" property="schoolId" />
+        <result column="pictures" property="pictures" />
+        <result column="version" property="version" />
+        <result column="delFlag" property="delFlag" />
+        <result column="createTime" property="createTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="createBy" property="createBy" />
+        <result column="updateBy" property="updateBy" />
+    </resultMap>
+
+</mapper>

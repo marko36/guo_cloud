@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jc.cloud.school.mapper.CommentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jc.cloud.school.entity.Comment">
+        <id column="id" property="id" />
+        <result column="replyId" property="replyId" />
+        <result column="documentId" property="documentId" />
+        <result column="content" property="content" />
+        <result column="likeCount" property="likeCount" />
+        <result column="status" property="status" />
+        <result column="version" property="version" />
+        <result column="delFlag" property="delFlag" />
+        <result column="createTime" property="createTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="createBy" property="createBy" />
+        <result column="updateBy" property="updateBy" />
+    </resultMap>
+
+</mapper>

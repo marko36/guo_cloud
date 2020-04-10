@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jc.cloud.home.mapper.LeaveMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jc.cloud.home.entity.Leave">
+        <id column="id" property="id" />
+        <result column="babyId" property="babyId" />
+        <result column="teacherId" property="teacherId" />
+        <result column="type" property="type" />
+        <result column="content" property="content" />
+        <result column="leaveImg" property="leaveImg" />
+        <result column="startTime" property="startTime" />
+        <result column="endTime" property="endTime" />
+        <result column="status" property="status" />
+        <result column="checkBy" property="checkBy" />
+        <result column="checkTime" property="checkTime" />
+        <result column="version" property="version" />
+        <result column="createTime" property="createTime" />
+    </resultMap>
+
+</mapper>

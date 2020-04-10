@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: guo-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: 47.105.139.92:8848
+        file-extension: yaml
+        ext-config:
+          - data-id: guo-common.yaml
+            refresh: true
+            group: GUO_CLOUD
+          - data-id: guo-service.yaml
+            refresh: true
+            group: GUO_CLOUD
+          - data-id: guo-error.yaml
+            refresh: true
+            group: GUO_CLOUD

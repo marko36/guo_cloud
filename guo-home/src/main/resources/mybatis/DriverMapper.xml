@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jc.cloud.home.mapper.DriverMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jc.cloud.home.entity.Driver">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="age" property="age" />
+        <result column="phone" property="phone" />
+        <result column="photo" property="photo" />
+        <result column="position" property="position" />
+        <result column="schoolBusId" property="schoolBusId" />
+        <result column="version" property="version" />
+        <result column="delFlag" property="delFlag" />
+        <result column="createTime" property="createTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="createBy" property="createBy" />
+        <result column="updateBy" property="updateBy" />
+    </resultMap>
+
+</mapper>

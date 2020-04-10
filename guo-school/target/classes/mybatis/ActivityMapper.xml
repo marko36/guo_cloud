@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jc.cloud.school.mapper.ActivityMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jc.cloud.school.entity.Activity">
+        <id column="id" property="id" />
+        <result column="cover" property="cover" />
+        <result column="title" property="title" />
+        <result column="presentation" property="presentation" />
+        <result column="lecturer" property="lecturer" />
+        <result column="schedule" property="schedule" />
+        <result column="previous" property="previous" />
+        <result column="site" property="site" />
+        <result column="beginTime" property="beginTime" />
+        <result column="endTime" property="endTime" />
+        <result column="deadline" property="deadline" />
+        <result column="numberNum" property="numberNum" />
+        <result column="applyNumber" property="applyNumber" />
+        <result column="phone" property="phone" />
+        <result column="price" property="price" />
+        <result column="status" property="status" />
+        <result column="delFlag" property="delFlag" />
+        <result column="version" property="version" />
+        <result column="createTime" property="createTime" />
+        <result column="createBy" property="createBy" />
+        <result column="updateTime" property="updateTime" />
+        <result column="updateBy" property="updateBy" />
+    </resultMap>
+
+</mapper>

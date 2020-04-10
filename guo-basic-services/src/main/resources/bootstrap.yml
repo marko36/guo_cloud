@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: guo-basic
+  cloud:
+    nacos:
+      config:
+        server-addr: 47.105.139.92:8848
+        file-extension: yaml
+        ext-config:
+          - data-id: guo-common.yaml
+            refresh: true
+            group: GUO_CLOUD
+          - data-id: guo-service.yaml
+            refresh: true
+            group: GUO_CLOUD
+          - data-id: guo-error.yaml
+            refresh: true
+            group: GUO_CLOUD
+#token
+swagger:
+  token:
+    eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMjM0NTYiLCJ1c2VySWQiOiIxMjM0NTYiLCJ1c2VyTmFtZSI6IjEzNjUwMjAyMDQyIiwic2NvcGUiOiJwYXJlbnQiLCJleHAiOjE1NTk1MzE1NTZ9.VCrr0tLiBppIhf6W2qR5DRI_TAv7ydmePWD2d2Heq0Ic8VZJPd3xGSmysYSg8DeTkpYQhkO6Eiufhk-cBoP3kOebs9_tlxfP2bsE9LdE9SbszYb_5fxLRVHxjt1wRyVmZOQVI9kaR3zNT6sjpuuCyZfbNkBA9iM-lPXhsoioVEA

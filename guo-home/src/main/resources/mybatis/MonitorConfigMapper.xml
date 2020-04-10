@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jc.cloud.home.mapper.MonitorConfigMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jc.cloud.home.entity.MonitorConfig">
+        <id column="id" property="id" />
+        <result column="addrs" property="addrs" />
+        <result column="port" property="port" />
+        <result column="model" property="model" />
+        <result column="school" property="school" />
+        <result column="isEnable" property="isEnable" />
+        <result column="userName" property="userName" />
+        <result column="password" property="password" />
+        <result column="erectionTime" property="erectionTime" />
+        <result column="erectionBy" property="erectionBy" />
+    </resultMap>
+
+</mapper>

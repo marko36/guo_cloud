@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jc.cloud.home.mapper.TaskMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jc.cloud.home.entity.Task">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="title" property="title" />
+        <result column="content" property="content" />
+        <result column="teacherId" property="teacherId" />
+        <result column="taskType" property="taskType" />
+        <result column="startTime" property="startTime" />
+        <result column="endTime" property="endTime" />
+        <result column="targetId" property="targetId" />
+        <result column="receiveNumber" property="receiveNumber" />
+        <result column="status" property="status" />
+        <result column="receiveType" property="receiveType" />
+        <result column="completeNumber" property="completeNumber" />
+        <result column="taskLogo" property="taskLogo" />
+        <result column="receivePeople" property="receivePeople" />
+        <result column="version" property="version" />
+        <result column="delFlag" property="delFlag" />
+        <result column="createTime" property="createTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="createBy" property="createBy" />
+        <result column="updateBy" property="updateBy" />
+    </resultMap>
+
+</mapper>
